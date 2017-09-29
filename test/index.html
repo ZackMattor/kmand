@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <script src="../src/kmand.js"></script>
+  </head>
+  <body>
+    <iframe src="child.html" id="child"></iframe>
+    <script>
+      let child_window = document.getElementById('child').contentWindow;
+
+      let kmand = new Kmand(child_window, {
+        color_change(color) {
+          alert(color);
+        }
+      });
+    </script>
+  </body>
+</html>

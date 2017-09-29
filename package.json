@@ -1,0 +1,19 @@
+{
+  "name": "kmand",
+  "version": "1.0.0",
+  "description": "Allows you to call functions, and listen to events, between frames. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZackMattor/kmand.git"
+  },
+  "author": "Zack Mattor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZackMattor/kmand/issues"
+  },
+  "homepage": "https://github.com/ZackMattor/kmand#readme"
+}

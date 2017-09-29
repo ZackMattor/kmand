@@ -1,2 +1,2 @@
 # kmand
-Allows you to call functions, and listen to events, from a parent iframe.
+Allows you to call functions, and listen to events, between iframes.
